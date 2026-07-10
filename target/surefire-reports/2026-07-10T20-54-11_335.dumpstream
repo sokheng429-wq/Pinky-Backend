@@ -1,0 +1,5 @@
+# Created at 2026-07-10T20:54:11.482
+Boot Manifest-JAR contains absolute paths in classpath 'E:\3.Sourc Code\Pinky\Update Pinky\pinky-backend\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
