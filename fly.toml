@@ -1,12 +1,13 @@
-# fly.toml app configuration file generated for pinky-backend on 2026-07-29T02:03:14+07:00
+# fly.toml app configuration file generated for pinky-backend on 2026-07-28T19:07:55Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'pinky-backend'
-primary_region = 'sin'
+primary_region = 'ams'
 
 [build]
+
 [env]
   PORT = '8080'
 
@@ -20,5 +21,6 @@ primary_region = 'sin'
 
 [[vm]]
   memory = '512mb'
+  cpu_kind = 'shared'
   cpus = 1
   memory_mb = 512
